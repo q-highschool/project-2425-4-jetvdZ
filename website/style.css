@@ -20,7 +20,7 @@ body {
 }
 
 .menubalk a {
-    color: white;
+    color: #BB112A;
     text-decoration: none;
     padding: 10px;
     font-size: 17px;
@@ -28,7 +28,7 @@ body {
 }
 
 .menubalk a:hover {
-    background-color: #765341;
+    background-color: #781F19;
     border-radius: 5px;
     color: floralwhite;
 }
