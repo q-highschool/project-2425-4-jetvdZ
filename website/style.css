@@ -29,6 +29,6 @@ body {
 
 .menubalk a:hover {
     background-color: #781F19;
-    border-radius: 5px;
+    border-radius: 10px;
     color: floralwhite;
 }
