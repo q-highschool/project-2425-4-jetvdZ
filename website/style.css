@@ -9,12 +9,6 @@ body {
     margin-right: auto;
     padding: 9px;
 }
-.menubalk {
-    display: flex;
-    border: 4px solid white;
-    border-radius: 7px;
-    margin: 10px;
-}
 
 .menubalk ul {
     list-style: none;
