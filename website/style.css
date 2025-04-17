@@ -33,7 +33,7 @@ body {
     color: floralwhite;
 }
 
-h1{
+#ddembe-in-nieuws{
     color: #BB112A;
     font-size: 40px;
     text-align: center;
@@ -47,7 +47,7 @@ h1{
     left: 100px; 
 }
 
-p1 {
+#bron1 {
     color: black;
     font-size: 20px;
     position: absolute;
@@ -59,7 +59,7 @@ p1 {
     width: 350px;
     height: 500px;
 }
-p2 {
+#bron2 {
     color: black;
     font-size: 20px;
 }
