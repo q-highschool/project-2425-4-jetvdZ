@@ -32,3 +32,15 @@ body {
     border-radius: 10px;
     color: floralwhite;
 }
+
+#terug-naar-menu {
+    font-size: 30px;
+    color: floralwhite;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: whitesmoke ;
+    margin: 5px;
+    cursor: pointer;
+}
