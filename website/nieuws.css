@@ -35,11 +35,11 @@ body {
 
 #terug-naar-menu {
     font-size: 30px;
-    color: floralwhite;
+    color: red;
     width: 40px;
     height: 40px;
     border-radius: 30px;
     border-color: transparent;
-    background-color: whitesmoke ;
+    background-color: red ;
     cursor: pointer;
 }
