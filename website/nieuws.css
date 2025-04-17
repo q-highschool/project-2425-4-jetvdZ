@@ -33,13 +33,3 @@ body {
     color: floralwhite;
 }
 
-#terug-naar-menu {
-    font-size: 30px;
-    color: red;
-    width: 80px;
-    height: 40px;
-    border-radius: 15px;
-    border-color: transparent;
-    background-color: red ;
-    cursor: pointer;
-}
