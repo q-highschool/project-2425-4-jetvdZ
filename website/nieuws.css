@@ -42,7 +42,7 @@ h1{
 #feestelijkedag {
     width: 350px;
     height: 500px;
-    position: absolute;
+    position: fixed;
     top: 200px; 
     left: 200px; 
 }
