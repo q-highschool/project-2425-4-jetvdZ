@@ -33,6 +33,12 @@ body {
     color: floralwhite;
 }
 
+h1{
+    color: red;
+    font-size: 40px;
+    position: center;
+}
+
 #feestelijkedag {
     width: 350px;
     height: 500px;
