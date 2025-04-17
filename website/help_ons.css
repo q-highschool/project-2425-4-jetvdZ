@@ -32,3 +32,8 @@ body {
     border-radius: 10px;
     color: floralwhite;
 }
+
+h1 {
+    color: black;
+    text-align: center;
+}
