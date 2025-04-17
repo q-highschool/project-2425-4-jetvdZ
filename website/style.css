@@ -32,3 +32,34 @@ body {
     border-radius: 10px;
     color: floralwhite;
 }
+
+h1{
+    color: #BB112A;
+    font-size: 40px;
+    text-align: center;
+}
+
+#feestelijkedag {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 200px; 
+    left: 100px; 
+}
+
+p1 {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+#steun-duiven {
+    width: 350px;
+    height: 500px;
+}
+p2 {
+    color: black;
+    font-size: 20px;
+}
