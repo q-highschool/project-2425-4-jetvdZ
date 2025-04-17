@@ -37,13 +37,15 @@ body {
     width: 350px;
     height: 500px;
     position: absolute;
+    top: 200px; 
+    left: 200px; 
 }
 
 p1 {
     color: black;
     font-size: 20px;
     position: absolute;
-    top: 50px;
+    bottom: 50px;
     left: 50px;
-    
+
 }
