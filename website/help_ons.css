@@ -37,3 +37,8 @@ h1 {
     color: black;
     text-align: center;
 }
+#foto {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
