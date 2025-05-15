@@ -23,3 +23,44 @@
         </ul>
     </nav>
 </body>
+<body>
+
+<h1>Reactie Plaatsen</h1>
+<button id="comment-button" class="comment-btn">Plaats een reactie</button>
+
+<div id="comment-section">
+    <textarea id="comment-input" placeholder="Schrijf hier je reactie..." rows="4"></textarea>
+    <button id="submit-comment" class="comment-btn">Verstuur</button>
+</div>
+
+<div id="comment-display" class="comment-display"></div>
+
+<script>
+    // Toon/verberg de reactiesectie
+    document.getElementById('comment-button').addEventListener('click', () => {
+        const commentSection = document.getElementById('comment-section');
+        commentSection.style.display = commentSection.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Verstuurt de reactie en laat zien
+    document.getElementById('submit-comment').addEventListener('click', () => {
+        const commentInput = document.getElementById('comment-input');
+        const commentDisplay = document.getElementById('comment-display');
+        
+        const comment = commentInput.value.trim();
+        if (comment !== "") {
+            // Voeg de reactie toe aan de weergave
+            const commentElement = document.createElement('p');
+            commentElement.textContent = comment;
+            commentDisplay.appendChild(commentElement);
+
+             // Wist het tekstveld
+            commentInput.value = "";
+            alert("Reactie succesvol toegevoegd!");
+        } else {
+            alert("Het reactieveld mag niet leeg zijn!");
+        }
+    });
+</script>
+
+</body>
