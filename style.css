@@ -1,6 +1,3 @@
-body {
-    background-color:#f5f5f5;
-}
 
 #title {
     color: #bca89f;
@@ -8,29 +5,6 @@ body {
     font: 24px bold italic;
     margin-right: auto;
     padding: 9px;
-}
-
-.menubalk ul {
-    list-style: none;
-    display: flex;
-}
-
-.menubalk li {
-    margin-left: 80px;
-}
-
-.menubalk a {
-    color: #BB112A;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-.menubalk a:hover {
-    background-color: #781F19;
-    border-radius: 10px;
-    color: floralwhite;
 }
 
 #ddembe-in-nieuws{
@@ -81,3 +55,66 @@ body {
     text-align: top;
     color: white;
 }
+
+/* Centrale stijlen voor Stichting Ddembe website */
+
+/* Kleuren:
+   - Achtergrond: #FFEFDF
+   - Tekst: #000000
+   - Navigatiebalk: #F4BE78
+   - Accentkleur: #E77A19
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFEFDF;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #F4BE78;
+    padding: 1rem;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    color: #E77A19;
+  }
+  
+  .container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #E77A19;
+  }
+  
+  footer {
+    background-color: #F4BE78;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
