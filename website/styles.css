@@ -156,3 +156,7 @@ body {
   display: flex;
   gap: 10px;
 }
+.leden {
+  width: 270px;
+  height: 340px;
+}
