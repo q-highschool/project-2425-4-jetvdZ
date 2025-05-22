@@ -120,9 +120,11 @@ body {
   
   #Bestuur {
     background-color: #F4BE78;
+    display: block;
     text-align: center;
     padding: 15px; 
     border-radius: 10px;
+    font-size: 40px;
   }
   #lightbox {
     position: fixed;
@@ -156,14 +158,21 @@ body {
   display: flex;
   gap: 10px;
 }
+
 .leden {
-  width: 270px;
+  display: flex;
+  justify-content: center; /* of space-between, space-around, enz. */
+  gap: 90px;  
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
-  background-color: #F4BE78;
 }
+
+.leden img {
+  width: 30%;
+  height: auto;
+  border: 10px solid #F4BE78;
+  border-radius: 5px;
+}
+
