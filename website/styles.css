@@ -158,5 +158,12 @@ body {
 }
 .leden {
   width: 270px;
-  height: 340px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F4BE78;
 }
