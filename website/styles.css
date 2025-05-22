@@ -124,3 +124,31 @@ body {
     padding: 15px; 
     border-radius: 10px;
   }
+  #lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#lightbox img {
+    max-width: 60%;
+    max-height: 60%;
+    box-shadow: 0 0 20px white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clickable-image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 90%;
+    bottom: 2%;
+}
