@@ -120,4 +120,7 @@ body {
   
   #bestuur {
     background-color: #F4BE78;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px; 
   }
