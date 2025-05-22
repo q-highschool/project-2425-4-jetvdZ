@@ -152,3 +152,7 @@ body {
     left: 90%;
     bottom: 2%;
 }
+.afbeeldingen-container {
+  display: flex;
+  gap: 10px;
+}
