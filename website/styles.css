@@ -190,7 +190,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  bottom: 255%;
+  bottom: 248%;
   left: 4%;
 }
 
@@ -201,7 +201,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  bottom: 96%;
+  bottom: 90%;
   left: 270px;
 }
 
@@ -212,7 +212,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  bottom: 249%;
+  bottom: 242%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -224,7 +224,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  bottom: 95%;
+  bottom: 90%;
   left: 42%;
 }
 
@@ -235,7 +235,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  top: 40%;
+  bottom: 248%;
   right: 10%;
 }
 
@@ -245,7 +245,7 @@ body {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: relative;
-  top: 102%;
+  position: absolute;
+  bottom: 90%;
   right: 15%;
 }
