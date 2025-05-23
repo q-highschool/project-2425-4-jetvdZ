@@ -225,3 +225,15 @@ h{
   font-size: 30px;
   font-weight: bold;
 }
+
+#donateBtn {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #E77A19;
+  border-radius: 50px;
+  border: none;
+  padding: 15px;
+}
