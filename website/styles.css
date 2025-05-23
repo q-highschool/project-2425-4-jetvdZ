@@ -183,8 +183,7 @@ body {
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
-  top: 40%;
+  position: relative;
   left: 40px;
 }
 
@@ -194,7 +193,7 @@ body {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 103%;
   left: 270px;
 }
@@ -205,9 +204,8 @@ body {
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
-  top: 40%;
-  left: 42%;
+  position: relative;
+  left: 43%;
 }
 
 #lid2functie {
@@ -216,7 +214,7 @@ body {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 102%;
   left: 42%;
 }
@@ -227,7 +225,7 @@ body {
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 40%;
   right: 10%;
 }
@@ -238,7 +236,7 @@ body {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 102%;
   right: 15%;
 }
