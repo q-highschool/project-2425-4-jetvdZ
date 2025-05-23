@@ -176,3 +176,52 @@ body {
   border-radius: 5px;
 }
 
+#lid1 {
+  color: #F4BE78;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 40px;
+}
+
+#lid1functie {
+  color: #F4BE78;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 103%;
+  left: 270px;
+}
+
+#lid2 {
+  color: #F4BE78;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#lid2functie {
+  color: #F4BE78;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#lid3 {
+  color: #F4BE78;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+  right: 140px;
+}
+
+#lid3functie {
+  color: #F4BE78;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
