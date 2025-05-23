@@ -178,6 +178,7 @@ body {
 
 #lid1 {
   color: #F4BE78;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
@@ -188,6 +189,7 @@ body {
 
 #lid1functie {
   color: #F4BE78;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
@@ -198,16 +200,24 @@ body {
 
 #lid2 {
   color: #F4BE78;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 35px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 42%;
 }
 
 #lid2functie {
   color: #F4BE78;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
+  position: absolute;
+  top: 102%;
+  left: 42%;
 }
 
 #lid3 {
@@ -216,7 +226,8 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  right: 140px;
+  top: 40%;
+  right: 10%;
 }
 
 #lid3functie {
@@ -224,4 +235,7 @@ body {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
+  position: absolute;
+  top: 102%;
+  right: 15%;
 }
