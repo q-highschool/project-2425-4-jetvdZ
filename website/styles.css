@@ -160,92 +160,41 @@ body {
   gap: 10px;
 }
 
-.leden {
+.leden-container {
   display: flex;
-  justify-content: center; /* of space-between, space-around, enz. */
-  gap: 90px;  
-  width: 100%;
-  max-width: 1000px;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
-.leden img {
-  width: 30%;
+.lid {
+  text-align: center;
+  max-width: 250px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.lid img {
+  width: 100%;
   height: auto;
   border: 10px solid #F4BE78;
   border-radius: 5px;
 }
 
-.tekstleden {
-  position: relative;
-  width: 100%;
-  height: 300px;
+.naam {
+  color: #F4BE78;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#lid1 {
+.functie {
   color: #F4BE78;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 35px;
-  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
   font-weight: bold;
-  position: absolute;
-  bottom: 248%;
-  left: 4%;
-}
-
-#lid1functie {
-  color: #F4BE78;
+  margin-top: 4px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 20px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  position: absolute;
-  bottom: 90%;
-  left: 270px;
-}
-
-#lid2 {
-  color: #F4BE78;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 35px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  position: absolute;
-  bottom: 242%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#lid2functie {
-  color: #F4BE78;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 20px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  position: absolute;
-  bottom: 90%;
-  left: 42%;
-}
-
-#lid3 {
-  color: #F4BE78;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 35px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  position: absolute;
-  bottom: 248%;
-  right: 10%;
-}
-
-#lid3functie {
-  color: #F4BE78;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: 20px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  position: absolute;
-  bottom: 90%;
-  right: 15%;
 }
