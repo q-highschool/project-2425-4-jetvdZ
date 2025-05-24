@@ -251,3 +251,21 @@ p {
   font-weight: bold;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#index1 {
+  padding-right: 40%;
+  position: absolute;
+  left: 30px;
+}
+
+#index2 {
+  padding-left: 20%;
+  position: absolute;
+  right: 30px;
+}
+
+#index3 {
+  padding-right: 40%;
+  position: absolute;
+  left: 30px;
+}
