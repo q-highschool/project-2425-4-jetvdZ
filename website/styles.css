@@ -65,7 +65,12 @@
 }
 
 #opkomenvoorvrouwen {
-
+  border: 15px solid #F4BE78;
+  max-width: 300px;
+  height: auto;
+  position: absolute;
+  top: 110vh; 
+  left: 5.3vw; 
 }
 
 #bron4 {
