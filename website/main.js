@@ -1,6 +1,6 @@
 document.getElementById("donateBtn").addEventListener("click", function() {
     // Stuur gebruiker naar een donatiepagina, bijvoorbeeld een Tikkie, PayPal of iDeal-link
-    window.location.href = "https://www.paypal.com/donate?hosted_button_id=JOUW_KNOP_ID";
+    window.location.href = "https://kindsponsoring.org/sponsor/ddembe";
   });  
 
 const images = document.querySelectorAll('.clickable-image');
