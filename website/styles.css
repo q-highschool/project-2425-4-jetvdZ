@@ -130,8 +130,13 @@
   box-sizing: border-box;
 }
 
-#irrigatiemogelijk {
-
+#irrigatie-mogelijk {
+  border: 15px solid #F4BE78;
+  max-width: 250px;
+  height: auto;
+  position: absolute;
+  top: 155vh; 
+  left: 5.3vw; 
 }
 
 #bron7 {
