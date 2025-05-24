@@ -1,23 +1,28 @@
+#content-container {
+  position: relative;
+  height: 230vh; 
+}
+
 #feestelijkedag {
-    border: 15px solid #F4BE78;
-    max-width: 300px;
-    height: auto;
-    position: absolute;
-    top: 38vh; 
-    left: 5.3vw; 
+  border: 15px solid #F4BE78;
+  max-width: 300px;
+  height: auto;
+  position: absolute;
+  top: 28vh;
+  left:-12.3vw;
 }
 
 #bron1 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 100vh;    
-  left: 5.3vw;
+  top: 88.5vh;
+  left: -12.3vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 #steun-duiven {
@@ -25,21 +30,21 @@
   height: auto;
   border: 15px solid #F4BE78;
   position: absolute;
-  top: 38vh;
-  left: 32.5vw;
+  top: 28vh;
+  left: 15.5vw;
 }
 
 #bron2 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 90.5vh;    
-  left: 32.5vw;
+  top: 79vh;
+  left: 15.5vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 #ogtent {
@@ -47,21 +52,21 @@
   max-width: 450px;
   height: auto;
   position: absolute;
-  top: 38vh; 
-  right: 4.5vw; 
+  top: 28vh;
+  right: -12vw;
 }
 
 #bron3 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 85vh;    
-  right: 29.2vw;
+  top: 73.9vh;
+  right: 13.5vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 #opkomenvoorvrouwen {
@@ -69,19 +74,19 @@
   max-width: 300px;
   height: auto;
   position: absolute;
-  top: 110vh; 
-  left: 5.3vw; 
+  top: 100vh;
+  left: -12.3vw;
 }
 
 #bron4 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 146.7vh;    
-  left: 5.3vw;
+  top: 135.5vh;
+  left: -12.3vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box;
 }
@@ -91,19 +96,19 @@
   max-width: 326px;
   height: auto;
   position: absolute;
-  top: 110vh; 
-  left: 32.5vw; 
+  top: 100vh;
+  left: 15.5vw;
 }
 
 #bron5 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 146.7vh;    
-  left: 32.5vw;
+  top: 135.4vh;
+  left: 15.5vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box;
 }
@@ -113,19 +118,19 @@
   max-width: 365px;
   height: auto;
   position: absolute;
-  top: 110vh; 
-  right: 10.2vw; 
+  top: 100vh;
+  right: -6vw;
 }
 
 #bron6 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 146.7vh;    
-  right: 29vw;
+  top: 135.5vh;
+  right: 13.6vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box;
 }
@@ -135,22 +140,28 @@
   max-width: 250px;
   height: auto;
   position: absolute;
-  top: 155vh; 
-  left: 5.3vw; 
+  top: 145vh;
+  left: -12.3vw;
 }
 
 #bron7 {
   color: white;
-  font-size: 10px; 
+  font-size: 10px;
   background-color: #E77A19;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 212.5vh;    
-  left: 5.3vw;
+  top: 201.2vh;
+  left: -12.3vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box;
 }
+
+#content-container {
+  position: relative;
+  height: 230vh; 
+}
+
 
 .homepage-hero {
     background-image: url("augustus-2024-1.jpg");
@@ -231,12 +242,12 @@ body {
     color: #E77A19;
   }
   
-  footer {
-    background-color: #F4BE78;
-    padding: 1rem;
-    text-align: center;
-    margin-top: 2rem;
-  }
+    footer {
+      background-color: #F4BE78;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
 
   #lightbox {
     position: fixed;
