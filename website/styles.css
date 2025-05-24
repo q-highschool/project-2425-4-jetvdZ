@@ -23,7 +23,12 @@
 #steun-duiven {
   max-width: 340px;
   height: auto;
+  border: 15px solid #F4BE78;
+  position: absolute;
+  top: 38vh;
+  left: 31vw;
 }
+
 #bron2 {
     color: black;
     font-size: 20px;
