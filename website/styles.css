@@ -87,7 +87,12 @@
 }
 
 #hoop {
-
+  border: 15px solid #F4BE78;
+  max-width: 326px;
+  height: auto;
+  position: absolute;
+  top: 110vh; 
+  left: 32.5vw; 
 }
 
 #bron5 {
