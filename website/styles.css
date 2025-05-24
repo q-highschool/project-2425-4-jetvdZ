@@ -109,7 +109,12 @@
 }
 
 #oegandadag {
-
+  border: 15px solid #F4BE78;
+  max-width: 365px;
+  height: auto;
+  position: absolute;
+  top: 110vh; 
+  right: 10.2vw; 
 }
 
 #bron6 {
