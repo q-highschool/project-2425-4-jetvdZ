@@ -245,27 +245,25 @@ p {
 
 .indextitel {
   color: #E77A19;
+  font-size: 20px;
   background-color: #F4BE78;
   padding: 10px;
+  padding-right: 30%;
   border-radius: 5px;
   font-weight: bold;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-#index1 {
-  padding-right: 40%;
-  position: absolute;
-  left: 30px;
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding: 0 40px;
 }
 
-#index2 {
-  padding-left: 20%;
-  position: absolute;
-  right: 30px;
-}
-
-#index3 {
-  padding-right: 40%;
-  position: absolute;
-  left: 30px;
+/* Verwijder alle position: absolute */
+#index1, #index2, #index3, #index4, #index5, #index6 {
+  position: static; /* of gewoon helemaal weglaten */
 }
