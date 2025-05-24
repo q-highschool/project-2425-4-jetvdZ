@@ -280,3 +280,15 @@ p {
 #index4, #index5, #index6 {
   padding: 20px;
 }
+
+#logo-positie {
+  position: relative;
+}
+
+#indexlogo {
+  position: absolute;
+  bottom: 0;
+  right: -180px;
+  width: 350px;
+  height: auto;
+}
