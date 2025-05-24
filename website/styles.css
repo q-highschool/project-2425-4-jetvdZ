@@ -122,16 +122,7 @@ body {
     text-align: center;
     margin-top: 2rem;
   }
-  
-  #Bestuur {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    background-color: #F4BE78;
-    display: block;
-    text-align: center;
-    padding: 15px; 
-    border-radius: 10px;
-    font-size: 40px;
-  }
+
   #lightbox {
     position: fixed;
     top: 0;
@@ -204,7 +195,7 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#helpmee {
+.hoofdtekst {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   background-color: #F4BE78;
   display: block;
@@ -250,4 +241,11 @@ p {
 #informatie {
   text-align: center;
   margin-bottom: 60px;
+}
+
+.indextitel {
+  color: black;
+  background-color: #F4BE78;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
