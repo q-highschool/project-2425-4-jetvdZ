@@ -181,14 +181,6 @@ body {
   height: auto;
   border: 10px solid #F4BE78;
   border-radius: 5px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.lid img.groot {
-  transform: scale(1.5);
-  z-index: 10;
-  position: relative;
 }
 
 .naam {
