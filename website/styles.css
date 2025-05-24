@@ -4,7 +4,7 @@
     height: auto;
     position: absolute;
     top: 38vh; 
-    left: 4.8vw; 
+    left: 5.3vw; 
 }
 
 #bron1 {
@@ -15,7 +15,7 @@
   padding: 5px;
   position: absolute;
   top: 100vh;    
-  left: 4.8vw;
+  left: 5.3vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box; 
 }
@@ -26,7 +26,7 @@
   border: 15px solid #F4BE78;
   position: absolute;
   top: 38vh;
-  left: 31vw;
+  left: 32.5vw;
 }
 
 #bron2 {
@@ -37,9 +37,63 @@
   padding: 5px;
   position: absolute;
   top: 90.5vh;    
-  left: 30.9vw;
+  left: 32.5vw;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
   box-sizing: border-box; 
+}
+
+#ogtent {
+  border: 15px solid #F4BE78;
+  max-width: 450px;
+  height: auto;
+  position: absolute;
+  top: 38vh; 
+  right: 4.5vw; 
+}
+
+#bron3 {
+  color: white;
+  font-size: 10px; 
+  background-color: #E77A19;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 85vh;    
+  right: 29.2vw;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  box-sizing: border-box; 
+}
+
+#opkomenvoorvrouwen {
+
+}
+
+#bron4 {
+
+}
+
+#hoop {
+
+}
+
+#bron5 {
+
+}
+
+#oegandadag {
+
+}
+
+#bron6 {
+
+}
+
+#irrigatiemogelijk {
+
+}
+
+#bron7 {
+
 }
 
 .homepage-hero {
