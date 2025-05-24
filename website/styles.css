@@ -283,12 +283,15 @@ p {
 
 #logo-positie {
   position: relative;
+  width: 78vw; 
+  height: 0vh;
+  overflow: visible; 
 }
 
 #indexlogo {
   position: absolute;
   bottom: 0;
-  right: -180px;
+  right: 0;
   width: 350px;
   height: auto;
 }
