@@ -502,31 +502,17 @@ p {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.galerij {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.galerij img {
-  height: 230px;
-  object-fit: contain;
-  border-radius: 8px;
-  background-color: #F4BE78;
-}
-
 .actie-galerij {
   display: flex;
-  justify-content: center;
-  gap: 25px;
+  justify-content: center; 
+  gap: 20px; 
   margin-bottom: 20px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .actie-galerij img {
-  width: 350px;
-  height: 250px;
+  width: 250px;
+  height: 180px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -534,10 +520,54 @@ p {
 
 .actie-tekst {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #333;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
+}
+
+.galerij img {
+  height: 230px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #F4BE78;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.galerij img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -561,3 +591,4 @@ p {
   color: #E77A19;
   font-weight: bold;
 }
+

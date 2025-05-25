@@ -7,24 +7,32 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   
-    // --- Lightbox voor klikbare afbeeldingen ---
-    const images = document.querySelectorAll(".clickable-image");
-    const lightbox = document.getElementById("lightbox");
-    if (images.length > 0 && lightbox) {
-      const lightboxImg = lightbox.querySelector("img");
-  
-      images.forEach((img) => {
-        img.addEventListener("click", () => {
-          lightboxImg.src = img.src;
-          lightbox.style.display = "flex";
-        });
-      });
-  
-      lightbox.addEventListener("click", () => {
-        lightbox.style.display = "none";
-      });
+   // --- Lightbox voor klikbare afbeeldingen ---
+const images = document.querySelectorAll(".galerij img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".lightbox .close");
+
+if (images.length > 0 && lightbox && lightboxImg) {
+  images.forEach((img) => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.style.display = "flex";
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = "none";
     }
-  
+  });
+}
+
     // --- Nieuwsbrief inschrijfformulier ---
     const subscribeForm = document.getElementById("subscribe-form");
     if (subscribeForm) {
