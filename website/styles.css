@@ -403,7 +403,7 @@ p {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 450px;
-  margin: -35px 3px 50px auto;
+  margin: -490px 3px 50px auto;
 }
 
 .contact-container form label {
@@ -474,37 +474,30 @@ p {
   margin-top: 4px;
 }
 
-#googlemaps {
-  display: inline-block;
+#googlemaps,
+#mail,
+#telefoon, 
+.contactinformatie {
+  display: block; 
   color: #E77A19;
   font-size: 22px;
-  margin-top: 30px;
-}
-
-#mail {
-  color: #E77A19;
-  font-size: 22px;
-  position: absolute;
-  top: 18.5rem; 
-  left: 16.3rem;
-}
-
-#telefoon {
-  color: #E77A19;
-  font-size: 22px;
-  position: absolute;
-  top: 21.5rem;
-  left: 16.3rem;
+  margin-top: 30px; 
 }
 
 #mail:hover, #googlemaps:hover, #telefoon:hover {
-  color: #F4BE78;    
+  color: #F4BE78;
   cursor: pointer;
 }
 
 .contactinformatie {
+  color: black;
   max-width: 600px;
-  position: absolute;
-  top: 23.5rem;
-  left: 14rem;
+  margin-left: -2.5rem;
+}
+
+#titelcontact{
+  color: black;
+  font-size: 35px;
+  font-weight: bolder; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
