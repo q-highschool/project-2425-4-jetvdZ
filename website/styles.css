@@ -421,3 +421,61 @@ p {
   width: 350px;
   height: auto;
 }
+
+#blog-volgen {
+  position: absolute;
+  bottom: 5.5%;
+  right: 0;
+  background-color: #F4BE78;
+  border: 2px solid #e77a19;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  margin: 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#blog-volgen h2 {
+  color: #e77a19;
+  margin-top: 0;
+}
+
+#blog-volgen form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#blog-volgen label {
+  font-weight: bold;
+}
+
+#blog-volgen input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#blog-volgen button {
+  background-color: #e77a19;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#blog-volgen button:hover {
+  background-color: #cc6b14;
+}
+
+#form-message {
+  margin-top: 0.5rem;
+  font-style: italic;
+  min-height: 1.2rem;
+}
+
+

@@ -64,12 +64,16 @@
     </section>
   </main>
   
-
-    <h1>Mijn blog volgen</h1>
+  <section id="blog-volgen">
     <p>Krijg nieuwe content direct in je mailbox.</p>
-    <!-- hier misschien iets dat je een mail kunt invullen en dat dat iets doet met java -->
+    <form id="subscribe-form">
+      <label for="email">E-mailadres:</label>
+      <input type="email" id="email" name="email" placeholder="voorbeeld@domein.nl" required />
+      <button type="submit">Inschrijven</button>
+    </form>
+    <p id="form-message" aria-live="polite"></p>
+  </section> 
 
-  </main>
   <footer>
     <p>&copy; 2025 Stichting Ddembe</p>
   </footer>

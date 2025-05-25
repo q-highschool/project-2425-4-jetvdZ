@@ -18,5 +18,35 @@ lightbox.addEventListener('click', () => {
     lightbox.style.display = 'none';
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('subscribe-form');
+    const emailInput = document.getElementById('email');
+    const message = document.getElementById('form-message');
+  
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+  
+      const email = emailInput.value.trim();
+  
+      if (email === '') {
+        message.textContent = 'Vul alsjeblieft je e-mailadres in.';
+        message.style.color = 'red';
+        return;
+      }
+  
+      // Eenvoudige e-mailvalidatie
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        message.textContent = 'Voer een geldig e-mailadres in.';
+        message.style.color = 'red';
+        return;
+      }
+  
+      message.style.color = 'green';
+      message.textContent = `Bedankt voor je inschrijving, ${email}!`;
+  
+      form.reset();
+    });
+  });
 
 
