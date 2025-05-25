@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
   
-      // Eenvoudige e-mailvalidatie
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailPattern.test(email)) {
         message.textContent = 'Voer een geldig e-mailadres in.';
@@ -48,5 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
       form.reset();
     });
   });
+
+
+  
+  
+  
+  
+  
 
 
