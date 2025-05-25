@@ -501,3 +501,31 @@ p {
   font-weight: bolder; 
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+.foto-blokken {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  flex-wrap: wrap; 
+  margin-top: 40px;
+}
+
+.foto-blok {
+  text-align: center;
+  max-width: 500px;
+}
+
+.foto-blok img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.foto-titel {
+  font-size: 2rem;
+  color: #E77A19;
+  margin-top: 15px;
+}
+
+
+
