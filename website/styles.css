@@ -521,11 +521,24 @@ p {
   border-radius: 8px;
 }
 
-.foto-titel {
-  font-size: 2rem;
-  color: #E77A19;
-  margin-top: 15px;
+#nederlandtitel, #oegandatitel {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
+#nederlandtitel {
+  top: 49%;
+  left: 34%;
+}
 
+#oegandatitel {
+  top: 43%;
+  right: 20%;
+}
 
