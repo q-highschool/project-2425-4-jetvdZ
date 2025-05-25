@@ -3,165 +3,35 @@
   height: 230vh; 
 }
 
-#feestelijkedag {
+.nieuws-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.nieuws-item {
+  background-color: #fff;
   border: 15px solid #F4BE78;
-  max-width: 300px;
+  padding: 0.5rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+.nieuws-item img {
+  width: 100%;
   height: auto;
-  position: absolute;
-  top: 28vh;
-  left:-12.3vw;
 }
 
-#bron1 {
+.nieuws-item p {
+  font-size: 0.85rem;
   color: white;
-  font-size: 10px;
   background-color: #E77A19;
-  border-radius: 5px;
   padding: 5px;
-  position: absolute;
-  top: 88.5vh;
-  left: -12.3vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#steun-duiven {
-  max-width: 340px;
-  height: auto;
-  border: 15px solid #F4BE78;
-  position: absolute;
-  top: 28vh;
-  left: 15.5vw;
-}
-
-#bron2 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
   border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 79vh;
-  left: 15.5vw;
+  margin-top: 0.5rem;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
 }
-
-#ogtent {
-  border: 15px solid #F4BE78;
-  max-width: 450px;
-  height: auto;
-  position: absolute;
-  top: 28vh;
-  right: -12vw;
-}
-
-#bron3 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 73.9vh;
-  right: 13.5vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#opkomenvoorvrouwen {
-  border: 15px solid #F4BE78;
-  max-width: 300px;
-  height: auto;
-  position: absolute;
-  top: 100vh;
-  left: -12.3vw;
-}
-
-#bron4 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 135.5vh;
-  left: -12.3vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#hoop {
-  border: 15px solid #F4BE78;
-  max-width: 326px;
-  height: auto;
-  position: absolute;
-  top: 100vh;
-  left: 15.5vw;
-}
-
-#bron5 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 135.4vh;
-  left: 15.5vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#oegandadag {
-  border: 15px solid #F4BE78;
-  max-width: 365px;
-  height: auto;
-  position: absolute;
-  top: 100vh;
-  right: -6vw;
-}
-
-#bron6 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 135.5vh;
-  right: 13.6vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#irrigatie-mogelijk {
-  border: 15px solid #F4BE78;
-  max-width: 250px;
-  height: auto;
-  position: absolute;
-  top: 145vh;
-  left: -12.3vw;
-}
-
-#bron7 {
-  color: white;
-  font-size: 10px;
-  background-color: #E77A19;
-  border-radius: 5px;
-  padding: 5px;
-  position: absolute;
-  top: 201.2vh;
-  left: -12.3vw;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-  box-sizing: border-box;
-}
-
-#content-container {
-  position: relative;
-  height: 230vh; 
-}
-
 
 .homepage-hero {
     background-image: url("augustus-2024-1.jpg");
@@ -233,10 +103,15 @@ body {
   }
   
   .container {
-    padding: 2rem;
-    max-width: 900px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    padding: 1rem;
   }
+
+  @media (max-width: 480px) { /* smartphones */ }
+@media (max-width: 768px) { /* tablets */ }
+@media (max-width: 1024px) { /* kleine laptops */ }
   
   h1 {
     color: #E77A19;
@@ -423,60 +298,69 @@ p {
 }
 
 #blog-volgen {
-  position: absolute;
-  bottom: 5.5%;
-  right: 0;
-  background-color: #F4BE78;
-  border: 2px solid #e77a19;
-  padding: 1rem;
-  border-radius: 8px;
-  width: 250px;
-  margin: 0;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  border-top: 3px solid #E77A19;
+  padding: 2rem 1rem;
+  margin-top: -85rem;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: 10rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-#blog-volgen h2 {
-  color: #e77a19;
-  margin-top: 0;
+#blog-volgen p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
-#blog-volgen form {
+#subscribe-form {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-#blog-volgen label {
-  font-weight: bold;
+#subscribe-form label {
+  flex-basis: 100%;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #555;
 }
 
-#blog-volgen input[type="email"] {
+#subscribe-form input[type="email"] {
+  flex-grow: 1;
+  min-width: 200px;
   padding: 0.5rem;
+  border: 2px solid #E77A19;
+  border-radius: 5px;
   font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
-#blog-volgen button {
-  background-color: #e77a19;
-  color: white;
+#subscribe-form button {
+  background-color: #E77A19;
   border: none;
-  padding: 0.6rem;
+  color: white;
+  padding: 0.55rem 1.5rem;
   font-size: 1rem;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-#blog-volgen button:hover {
-  background-color: #cc6b14;
+#subscribe-form button:hover {
+  background-color: #cf6f08;
 }
 
 #form-message {
-  margin-top: 0.5rem;
-  font-style: italic;
-  min-height: 1.2rem;
+  margin-top: 1rem;
+  color: green;
+  font-weight: 600;
 }
+
 
 .documenten-container {
   max-width: 800px;
