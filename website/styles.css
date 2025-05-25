@@ -477,24 +477,27 @@ p {
 #googlemaps {
   display: inline-block;
   color: #E77A19;
-  font-size: 25px;
+  font-size: 22px;
   margin-top: 30px;
-}
-
-#googlemaps:hover {
-  color: #F4BE78;  
-  cursor: pointer;
 }
 
 #mail {
   color: #E77A19;
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   top: 18.5rem; 
   left: 16.3rem;
 }
 
-#mail:hover {
+#telefoon {
+  color: #E77A19;
+  font-size: 22px;
+  position: absolute;
+  top: 21.5rem;
+  left: 16.3rem;
+}
+
+#mail:hover, #googlemaps:hover, #telefoon:hover {
   color: #F4BE78;    
   cursor: pointer;
 }
