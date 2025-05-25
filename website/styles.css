@@ -501,3 +501,10 @@ p {
   color: #F4BE78;    
   cursor: pointer;
 }
+
+.contactinformatie {
+  max-width: 600px;
+  position: absolute;
+  top: 23.5rem;
+  left: 14rem;
+}
