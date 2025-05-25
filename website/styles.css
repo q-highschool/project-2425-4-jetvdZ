@@ -517,5 +517,29 @@ p {
   background-color: #F4BE78;
 }
 
+.actie-galerij {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+}
+
+.actie-galerij img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.actie-tekst {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 
 
