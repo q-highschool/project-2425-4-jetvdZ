@@ -482,6 +482,19 @@ p {
 }
 
 #googlemaps:hover {
-  font-size: 26px;   
+  color: #F4BE78;  
+  cursor: pointer;
+}
+
+#mail {
+  color: #E77A19;
+  font-size: 25px;
+  position: absolute;
+  top: 18.5rem; 
+  left: 16.3rem;
+}
+
+#mail:hover {
+  color: #F4BE78;    
   cursor: pointer;
 }
