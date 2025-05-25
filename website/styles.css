@@ -403,7 +403,7 @@ p {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 450px;
-  margin: auto 3px 60px auto;
+  margin: -35px 3px 50px auto;
 }
 
 .contact-container form label {
@@ -474,3 +474,14 @@ p {
   margin-top: 4px;
 }
 
+#googlemaps {
+  display: inline-block;
+  color: #E77A19;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#googlemaps:hover {
+  font-size: 26px;   
+  cursor: pointer;
+}
