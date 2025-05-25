@@ -510,8 +510,7 @@ p {
 }
 
 .galerij img {
-  width: 100%;
-  height: 200px;
+  height: 230px;
   object-fit: contain;
   border-radius: 8px;
   background-color: #F4BE78;
@@ -519,15 +518,15 @@ p {
 
 .actie-galerij {
   display: flex;
-  justify-content: center; 
-  gap: 20px; 
+  justify-content: center;
+  gap: 25px;
   margin-bottom: 20px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .actie-galerij img {
-  width: 250px;
-  height: 180px;
+  width: 350px;
+  height: 250px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -535,11 +534,24 @@ p {
 
 .actie-tekst {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #333;
   max-width: 700px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .actie-galerij {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actie-galerij img {
+    width: 90%;
+    height: auto;
+  }
+}
+
 
 
 
