@@ -48,7 +48,58 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contactForm");
+    const successMessage = document.getElementById("successMessage");
+  
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
+    const messageInput = document.getElementById("message");
+  
+    const nameError = document.getElementById("nameError");
+    const emailError = document.getElementById("emailError");
+    const messageError = document.getElementById("messageError");
+  
+    function validateEmail(email) {
 
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+  
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      nameError.textContent = "";
+      emailError.textContent = "";
+      messageError.textContent = "";
+      successMessage.style.display = "none";
+  
+      let isValid = true;
+  
+      if (nameInput.value.trim() === "") {
+        nameError.textContent = "Vul je naam in.";
+        isValid = false;
+      }
+  
+      if (emailInput.value.trim() === "") {
+        emailError.textContent = "Vul je e-mailadres in.";
+        isValid = false;
+      } else if (!validateEmail(emailInput.value.trim())) {
+        emailError.textContent = "Vul een geldig e-mailadres in.";
+        isValid = false;
+      }
+  
+      if (messageInput.value.trim() === "") {
+        messageError.textContent = "Vul een bericht in.";
+        isValid = false;
+      }
+  
+      if (isValid) {
+        successMessage.style.display = "block";
+        form.reset();
+      }
+    });
+  });
+  
   
   
   
