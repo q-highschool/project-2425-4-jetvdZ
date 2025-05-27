@@ -284,7 +284,7 @@ p {
 
 #logo-positie {
   position: relative;
-  width: 78vw; 
+  width: 90vw; 
   height: 0vh;
   overflow: visible; 
 }
@@ -293,7 +293,7 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 350px;
+  width: 150px;
   height: auto;
 }
 
