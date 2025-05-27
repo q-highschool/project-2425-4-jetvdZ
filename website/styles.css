@@ -270,16 +270,16 @@ p {
 
 #index1, #index3, #index4, #index6 {
   position: relative;
-  left: -17vw;
+  left: -5vw;
 }
 
 #index2, #index5 {
   position: relative;
-  right: -17vw;
+  right: -5vw;
 }
 
 #index4, #index5, #index6 {
-  padding: 20px;
+  padding: 10px;
 }
 
 #logo-positie {
