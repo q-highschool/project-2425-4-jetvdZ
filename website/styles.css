@@ -526,6 +526,14 @@ p {
   margin: 0 auto;
 }
 
+.galerij {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 1rem;
+  padding: 2rem;
+}
+
 .galerij img {
   height: 230px;
   object-fit: contain;
