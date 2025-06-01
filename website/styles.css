@@ -124,7 +124,7 @@ body {
       margin-top: 2rem;
     }
 
-  #lightbox {
+  #qr-lightbox,#lightbox {
     position: fixed;
     top: 0;
     left: 0;

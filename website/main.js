@@ -6,29 +6,46 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "https://kindsponsoring.org/sponsor/ddembe";
       });
     }
-  
-   // --- Lightbox voor klikbare afbeeldingen ---
-const images = document.querySelectorAll(".galerij img");
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
+
+    const qrImages = document.querySelectorAll('.clickable-image');
+    const qrLightbox = document.getElementById('qr-lightbox');
+    const qrLightboxImg = qrLightbox.querySelector('img');
+    
+    qrImages.forEach(img => {
+      img.addEventListener('click', () => {
+        qrLightboxImg.src = img.src;
+        qrLightbox.style.display = 'flex';
+      });
+    });
+    
+    // Sluit alleen als je op de achtergrond (overlay) klikt, niet op de afbeelding
+    qrLightbox.addEventListener('click', (e) => {
+      if (e.target === qrLightbox) {
+        qrLightbox.style.display = 'none';
+      }
+    });
+
+const galleryImages = document.querySelectorAll(".galerij img");
+const galleryLightbox = document.getElementById("lightbox");
+const galleryLightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".lightbox .close");
 
-if (images.length > 0 && lightbox && lightboxImg) {
-  images.forEach((img) => {
+if (galleryImages.length > 0 && galleryLightbox && galleryLightboxImg) {
+  galleryImages.forEach((img) => {
     img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
-      lightboxImg.alt = img.alt;
-      lightbox.style.display = "flex";
+      galleryLightboxImg.src = img.src;
+      galleryLightboxImg.alt = img.alt;
+      galleryLightbox.style.display = "flex";
     });
   });
 
   closeBtn.addEventListener("click", () => {
-    lightbox.style.display = "none";
+    galleryLightbox.style.display = "none";
   });
 
-  lightbox.addEventListener("click", (e) => {
-    if (e.target === lightbox) {
-      lightbox.style.display = "none";
+  galleryLightbox.addEventListener("click", (e) => {
+    if (e.target === galleryLightbox) {
+      galleryLightbox.style.display = "none";
     }
   });
 }
