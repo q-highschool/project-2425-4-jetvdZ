@@ -1,6 +1,6 @@
 #content-container {
   position: relative;
-  height: 230vh; 
+  padding: 2rem;
 }
 
 .nieuws-grid {
@@ -301,11 +301,11 @@ p {
   background-color: #f8f8f8;
   border-top: 3px solid #E77A19;
   padding: 2rem 1rem;
-  margin-top: -85rem;
+  margin-top: 1rem;
   text-align: center;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: 10rem;
+  margin-left: 7.4rem;
+  margin-right: auto;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
