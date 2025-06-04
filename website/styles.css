@@ -288,6 +288,7 @@ p {
 #index2, #index5 {
   position: relative;
   right: -5vw;
+  text-align: right;
 }
 
 #index4, #index5, #index6 {
@@ -416,6 +417,10 @@ p {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 450px;
   margin: -490px 3px 50px auto;
+}
+
+.voorpaginatekst {
+  text-align: center;
 }
 
 .contact-container form label {
@@ -604,12 +609,14 @@ p {
 
 #informatieddembe {
   font-size: 1.25rem;
+  text-align: center;
 }
 
 #doneernu {
   font-size: 1.5rem;
   color: #E77A19;
   font-weight: bold;
+  text-align: center;
 }
 
 
