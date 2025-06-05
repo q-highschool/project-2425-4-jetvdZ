@@ -47,13 +47,79 @@
     <img src="Schermafbeelding 2025-05-08 om 16.41.47.png" alt="QR-code" class="clickable-image">
     <div id="qr-lightbox">
     <img src="Schermafbeelding 2025-05-08 om 16.41.47.png" alt="Vergrote afbeelding" id="qrcode">
+
     </div>
 
   </main>
 
   <footer>
+  <section class="footer-container">
+    <div class="footer-item">
+      <h2>Contact</h2>
+      <p>
+        tel: 
+        <a href="#" class="copy-link" data-copy="+31652656443">+31 06 52 65 64 43</a><br>
+        <a href="mailto:suubijackie@yahoo.com">suubijackie@yahoo.com</a><br>
+        <a class="no-wrap" href="https://www.google.com/maps/search/Prunuslaan+72,+Duiven,+6921+EN,+Nederland" target="_blank" rel="noopener noreferrer">
+          Prunuslaan 72, Duiven, 6921 EN
+        </a><br>
+        <a href="#" class="copy-link no-wrap" data-copy="NL90INGB0009699176">
+        Bankrekening: NL90INGB0009699176
+        </a><br>
+        t.n.v. Stichting Ddembe<br>
+        KVK: 
+        <a href="#" class="copy-link" data-copy="74010557">74010557</a><br>
+       </a><br>
+      </p>
+    </div>
+    <div class="footer-item">
+      <h2>Over ons</h2>
+      <p>
+        <a href="bestuur.html">Het bestuur</a><br>
+        <a href="contact.html">Contact</a><br>
+        <a href="publicaties.html">Publicaties</a><br>
+        <a href="fotos.html">Foto´s</a>
+      </p>
+    </div>
+    <div class="footer-item">
+      <h2>Over Ddembe</h2>
+      <p>
+        <a href="wat-is-ddembe.html">Wat is Ddembe?</a><br>
+        <a href="wat-doet-ddembe.html">Wat doet Ddembe?</a><br>
+        <a href="nieuws.html">Ddembe in het nieuws</a><br>
+        <a href="fotos.html">Foto´s</a>
+
+      </p>
+    </div>
+
+  </section>
+  <hr class="footer-divider">
+  <div class="footer-bottom">
     <p>&copy; 2025 Stichting Ddembe</p>
-  </footer>
+  </div>
+
+  <!-- Melding die verschijnt bij kopiëren -->
+  <div id="copy-alert" class="copy-alert">Gekopieerd!</div>
+</footer>
+
+<script>
+  document.querySelectorAll('.copy-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const text = this.dataset.copy;
+      navigator.clipboard.writeText(text).then(() => {
+        const alertBox = document.getElementById('copy-alert');
+        alertBox.classList.add('show');
+        setTimeout(() => {
+          alertBox.classList.remove('show');
+        }, 2000);
+      }).catch(() => {
+        alert('Kopiëren mislukt');
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
 
