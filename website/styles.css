@@ -224,6 +224,8 @@ nav ul li a.active {
   font-weight: bold;
 }
 
+
+
 p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
@@ -258,17 +260,160 @@ p {
 }
 
 .indextitel {
-  color: #E77A19;
+  color: #000000;
   font-size: 20px;
-  background-color: #F4BE78;
+  background-color: #f8bc7c;
   padding: 10px;
-  padding-right: 30%;
+  padding-right: 2%;
+  padding-left: 2%;
   border-radius: 5px;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+
+footer {
+  width: 100%; /* hele breedte van scherm */
+}
+
+.footer-bg {
+  background-color: #F4BE78; /* oranje kleur helemaal door laten lopen */
+  padding: 2rem 0;
+  color: black; /* wit tekstkleur voor contrast */
+}
+
+.footer-container {
+  display: flex;
+  font-size: 0.9rem;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0; /* minder ruimte onderaan (was bijv. 1rem of meer) */
+}
+
+.footer-item {
+  flex: 1 1 30%;
+  min-width: 250px;
+  overflow-x: auto;     
+}
+
+.footer-divider {
+  border: none;
+  margin: 1rem auto;
+  width: 60%; /* of pas aan zoals gewenst */
+  border-bottom: 1px solid #cc6b14;
+  margin-bottom: 1rem;  /* space between line and copyright */
+}
+
+
+.footer-item p {
+  font-size: 1.0rem; /* of bijvoorbeeld 0.8rem als je het nog kleiner wilt */
+  line-height: 1.4; /* optioneel, voor betere leesbaarheid */
+  margin: 0;
+  color: #cc6b14;
+}
+
+.footer-item h2 {
+  font-size: 1.1rem; /* kopjes iets kleiner */
+  margin-bottom: 0.5rem;
+  color: #b95d0b;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit; /* Houdt de kleur van de omringende tekst */
+  transition: color 0.1s ease, text-decoration 0.1s ease;
+}
+
+footer a:hover {
+  color: #E77A19; /* Oranje kleur bij hover */
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #b95d0b;
+}
+
+.footer-logo {
+  height: 30px; /* pas aan indien nodig */
+  object-fit: contain;
+}
+
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+
+.copy-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.1s ease, text-decoration 0.1s ease;
+}
+
+.copy-link:hover {
+  color: #E77A19;
+  text-decoration: underline;
+}
+
+/* Oranje copy knop */
+.copy-btn {
+  background-color: #E77A19;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.15rem 0.05rem;
+  font-size: 1rem;
+  border-radius: 1px;
+  margin-left: 5px;
+  vertical-align: middle;
+  transition: background-color 0.3s ease;
+}
+
+.copy-btn:hover {
+  background-color: #cf6e12;
+}
+
+/* Copy alert melding */
+.copy-alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E77A19;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  font-size: 0.9rem;
+  z-index: 1000;
+}
+
+.copy-alert.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
 
 p {
   font-size: 18px;
