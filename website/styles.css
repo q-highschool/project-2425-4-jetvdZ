@@ -3,6 +3,8 @@
   position: relative;
 }
 
+/*ddembe in het nieuws ---------------------------------------------------*/
+
 .nieuws-grid {
   display: grid;
   gap: 2rem;
@@ -68,6 +70,8 @@ body {
     position: relative;
   }
   
+/*taakbalk ---------------------------------------------------*/
+
   header {
   align-items: center;
   background-color: #F4BE78;
@@ -113,6 +117,7 @@ nav ul li a.active {
   color: #E77A19;
 }
 
+/*Basics ---------------------------------------------------*/
   
   .container {
     margin: 0 auto;
@@ -125,6 +130,7 @@ nav ul li a.active {
 @media (max-width: 768px) { /* tablets */ }
 @media (max-width: 1024px) { /* kleine laptops */ }
   
+
   h1 {
     color: #E77A19;
   }
@@ -135,6 +141,9 @@ nav ul li a.active {
       padding: 1rem;
       text-align: center;
     }
+
+
+ /*afbeeldingen---------------------------------------------------*/
 
   #qr-lightbox,#lightbox {
     align-items: center;
@@ -168,6 +177,7 @@ nav ul li a.active {
   display: flex;
   gap: 10px;
 }
+
 
 .leden-container {
   display: flex;
@@ -223,7 +233,7 @@ nav ul li a.active {
   font-weight: bold;
 }
 
-
+/*lettertype/grootte ---------------------------------------------------*/
 
 p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -238,6 +248,8 @@ p {
   font-weight: bold;
   margin-bottom: 30px;
 }
+
+/*tekst layouts ---------------------------------------------------*/
 
 #donateBtn {
   background-color: #E77A19;
@@ -272,14 +284,15 @@ p {
   padding: 10px;
 }
 
+/*footer ---------------------------------------------------*/
 
 footer {
   width: 100%; /* hele breedte van scherm */
 }
 
 .footer-bg {
-  background-color: #F4BE78; /* oranje kleur helemaal door laten lopen */
-  color: black; /* wit tekstkleur voor contrast */
+  background-color: #F4BE78; 
+  color: black;
   padding: 2rem 0;
 }
 
@@ -305,20 +318,20 @@ footer {
   border: none;
   margin-bottom: 1rem;  /* space between line and copyright */
   margin: 1rem auto;
-  width: 60%; /* of pas aan zoals gewenst */
+  width: 60%; 
 }
 
 
 .footer-item p {
   color: #cc6b14;
-  font-size: 1.0rem; /* of bijvoorbeeld 0.8rem als je het nog kleiner wilt */
-  line-height: 1.4; /* optioneel, voor betere leesbaarheid */
+  font-size: 1.0rem; 
+  line-height: 1.4; 
   margin: 0;
 }
 
 .footer-item h2 {
   color: #b95d0b;
-  font-size: 1.1rem; /* kopjes iets kleiner */
+  font-size: 1.1rem; /*grootte kopjes*/
   margin-bottom: 0.5rem;
 }
 
@@ -351,7 +364,7 @@ footer a:hover {
 }
 
 .footer-logo {
-  height: 30px; /* pas aan indien nodig */
+  height: 30px; 
   object-fit: contain;
 }
 
@@ -412,7 +425,7 @@ footer a:hover {
   pointer-events: auto;
 }
 
-
+/*tekst/letter aanpassingen ---------------------------------------------------*/
 
 p {
   font-size: 18px;
@@ -480,6 +493,8 @@ p {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+
+/*subsribe knop bij ddembe in het nieuws ---------------------------------------------------*/
 
 #subscribe-form {
   display: flex;
