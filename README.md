@@ -9,4 +9,7 @@ Ik heb de foto's in een mapje (Foto's voor in README) gezet. Hier in staan de de
 ## Website bekijken
 Je kunt de website bekijken door op Run and Debug te klikken.
 
-### Nieuwe 
+### Waarop willen we worden beoordeeld?
+1. Programmeren 
+2. Website 
+3. Interactie
