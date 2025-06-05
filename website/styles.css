@@ -311,17 +311,23 @@ p {
 }
 
 #blog-volgen {
+  grid-column: 3 / 4; /* alleen de 3e kolom, dus helemaal rechts */
+  grid-row: 3 / 4;
   background-color: #f8f8f8;
   border-top: 3px solid #E77A19;
-  padding: 2rem 1rem;
-  margin-top: 1rem;
-  text-align: center;
-  max-width: 600px;
-  margin-left: 7.4rem;
-  margin-right: auto;
+  padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 900px;  /* iets breder */
+  width: 150%;
+  max-height: 170px; /* iets langer */
+  overflow-y: auto;
+  text-align: center;
+  margin-top: auto;
+  justify-self: end; /* rechts uitlijnen in de cel */
 }
+
+
 
 #blog-volgen p:first-of-type {
   font-size: 1.2rem;
